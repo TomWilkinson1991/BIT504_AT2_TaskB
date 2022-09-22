@@ -61,7 +61,7 @@ public class Board {
 			return true;
 		 
 		
-		// TODO: Check the diagonal in the other direction
+		
 		if( cells[2][0].content == thePlayer && cells[1][1].content == thePlayer && cells[0][2].content == thePlayer)
 			return true;
 
